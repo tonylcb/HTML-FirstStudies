@@ -1,17 +1,22 @@
 div {
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 600px;
     border: 1px solid red;
+    border-radius: 100%;
+    background-image: url("../pictures/Untitled-1aaaa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 img {
-    border: 50px dotted green;
+    width: 600px;
+    border: 20px dotted green;
 }
 
 .tony1 {
-    border: 50px double green;
+    border: 20px double green;
 }
 
 .tony2 {
-    border: 50px solid green;
+    border: 20px solid green;
 }
