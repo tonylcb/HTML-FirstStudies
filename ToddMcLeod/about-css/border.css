@@ -1,23 +1,28 @@
 div {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border: 1px solid red;
     border-radius: 100%;
     background-image: url("../pictures/Untitled-1aaaa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
+    margin: 10px;
 }
 
 img {
-    width: 300px;
-    border: 20px dotted green;
+    width: 150px;
+    border: 10px dotted green;
+    padding: 30px;
+    margin: 40px;
 }
 
 .tony1 {
-    border: 20px double green;
+    border: 10px double green;
+    margin: 5px;
 }
 
 .tony2 {
-    border: 20px solid green;
+    border: 10px solid green;
+    margin: 10px;
 }
