@@ -18,8 +18,10 @@ img {
 }
 
 .tony1 {
+    width: 300px;
     border: 10px double green;
     margin: 5px;
+    box-sizing: border-box;
 }
 
 .tony2 {
