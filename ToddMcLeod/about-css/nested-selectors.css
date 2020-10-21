@@ -1,0 +1,17 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+
+div p {
+    color: red;
+}
+
+/* div > p {
+    color: red;
+}
+
+div ~ p {
+    color: red;
+} */
