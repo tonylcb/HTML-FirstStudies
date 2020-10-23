@@ -1,12 +1,14 @@
+body {
+    display: flex;
+    flex-direction: row; /* (default) outros -> column e 
+    flex-wrap: nowrap;  /* (default) outros -> wrap e wrap-reverse */    
+}
+
 div {
+    /* flex-grow: 1; */
     width: 100px;
     height: 100px;
     background-color: yellow;
     border: 2px solid blue;
 }
 
-body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
