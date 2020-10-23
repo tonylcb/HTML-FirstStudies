@@ -1,11 +1,20 @@
 body {
     display: flex;
-    flex-direction: row; /* (default) outros -> column e 
-    flex-wrap: nowrap;  /* (default) outros -> wrap e wrap-reverse */    
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    /* flex-direction: row (default) outros -> column */    
+    /* flex-wrap: nowrap (default) outros -> wrap e wrap-reverse */    
 }
-
+/* CONTAINER PROPETIES */
 div {
     /* flex-grow: 1; */
+    /* flex-direction: row; -> primary-axis is horizontal*/
+    /* flex-direction: column; -> primary-axis is vertical*/
+    /* flex-flow: row wrap; */
+    /* justify-content - uma linha de itens muda no primary-axis */
+    /* align-items - uma linha de itens muda no cross-axis */
+    /* align-content - todo o conteúdo muda no cross-axis */
+
     width: 100px;
     height: 100px;
     background-color: yellow;
